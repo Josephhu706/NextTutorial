@@ -14,7 +14,7 @@ const NotFound = () => {
       // router.go(-1)
       router.push('/')
     }, 3000)
-  }, [])
+  },[]) // eslint-disable-line react-hooks/exhaustive-deps
   
   return (
     <div className='not-found'>
